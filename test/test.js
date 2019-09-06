@@ -8,6 +8,9 @@ const indexModule = (process.env.MAIN ? path.resolve(process.env.MAIN) : path.jo
 const {default: positionInRange} = indexModule
 
 it("should run", () => {
-  const result = positionInRange()
-  expect(result).toBeGreaterThan(1549410770)
+  expect(positionInRange(2, 5, 3.5)).toBe(0.5)
+  expect(positionInRange(2, 5, 2)).toBe(0)
+  expect(positionInRange(2, 5, 5)).toBe(1)
+  expect(positionInRange(2, 5, 8)).toBe(2)
+  expect(positionInRange(2, 5, -4)).toBe(-2)
 })
