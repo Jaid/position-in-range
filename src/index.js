@@ -2,22 +2,20 @@
 
 /**
  * @function
- * @param {number} [compareValue]
- * @returns {number} Seconds passed since Unix epoch (01 January 1970)
+ * @param {number} lowerRangeNumber
+ * @param {number} upperRangeNumber
+ * @param {number} position
+ * @returns {number} Relative position of given `position` within the range
  * @example
  * import positionInRange from "position-in-range"
- * const result = positionInRange()
- * result === 1549410770
- * setTimeout(() => {
- *   const result2 = positionInRange(result)
- *   result2 === 3
- * }, 3000)
+ * positionInRange(2, 5,   2) //   0
+ * positionInRange(2, 5,   5) //   1
+ * positionInRange(2, 5, 3.5) // 0.5
+ * positionInRange(2, 5,   8) //   2
+ * positionInRange(2, 5,  -4) //  -2
  */
-export default compareValue => {
-  const seconds = Math.floor(Date.now() / 1000)
-  if (compareValue === undefined) {
-    return seconds
-  } else {
-    return seconds - compareValue
-  }
+export default (lowerRangeNumber, upperRangeNumber, position) => {
+  const normalizedUpper = upperRangeNumber - lowerRangeNumber
+  const normalizedPosition = position - lowerRangeNumber
+  return normalizedPosition / normalizedUpper
 }
