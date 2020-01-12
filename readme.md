@@ -1,54 +1,64 @@
 # position-in-range
 
 
-Calculates the relative position of a number in the given range.
+<a href="https://raw.githubusercontent.com/Jaid/position-in-range/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/position-in-range?style=flat-square" alt="License"/></a>  
+<a href="https://actions-badge.atrox.dev/Jaid/position-in-range/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2FJaid%2Fposition-in-range%2Fbadge" alt="Build status"/></a> <a href="https://github.com/Jaid/position-in-range/commits"><img src="https://img.shields.io/github/commits-since/Jaid/position-in-range/v1.0.0?style=flat-square&logo=github" alt="Commits since v1.0.0"/></a> <a href="https://github.com/Jaid/position-in-range/commits"><img src="https://img.shields.io/github/last-commit/Jaid/position-in-range?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/position-in-range/issues"><img src="https://img.shields.io/github/issues/Jaid/position-in-range?style=flat-square&logo=github" alt="Issues"/></a>  
+<a href="https://npmjs.com/package/position-in-range"><img src="https://img.shields.io/npm/v/position-in-range?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/position-in-range/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/position-in-range?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/position-in-range"><img src="https://img.shields.io/npm/dm/position-in-range?style=flat-square&logo=npm" alt="Downloads"/></a>
+
+**Calculates the relative position of a number in the given range.**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Installation
-<a href='https://npmjs.com/package/position-in-range'><img alt='npm logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/npm.png'/></a>
+<a href="https://npmjs.com/package/position-in-range"><img src="https://img.shields.io/badge/npm-position--in--range-C23039?style=flat-square&logo=npm" alt="position-in-range on npm"/></a>
 ```bash
 npm install --save position-in-range@^1.0.0
 ```
-<a href='https://yarnpkg.com/package/position-in-range'><img alt='Yarn logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/yarn.png'/></a>
+<a href="https://yarnpkg.com/package/position-in-range"><img src="https://img.shields.io/badge/Yarn-position--in--range-2F8CB7?style=flat-square&logo=yarn&logoColor=white" alt="position-in-range on Yarn"/></a>
 ```bash
 yarn add position-in-range@^1.0.0
 ```
-
-
-## Try it out
-<img alt='Chromium logo' src='https://github.com/Jaid/action-readme/raw/master/images/base-assets/browser.png'/>
-Open a browser's JavaScript console and execute:
-
-```javascript
-const scriptElement = document.createElement("script");
-scriptElement.setAttribute("type","text/javascript");
-scriptElement.setAttribute("src","https://unpkg.com/position-in-range@1.0.0");
-document.querySelector("head").appendChild(scriptElement);
+<a href="https://jsdelivr.com/package/npm/position-in-range/"><img src="https://img.shields.io/badge/jsDelivr-position--in--range-orange?style=flat-square&logo=html5&logoColor=white" alt="position-in-range on jsDelivr"/></a> <a href="https://unpkg.com/browse/position-in-range/"><img src="https://img.shields.io/badge/UNPKG-position--in--range-orange?style=flat-square&logo=html5&logoColor=white" alt="position-in-range on UNPKG"/></a>
+```html
+<script src="https://cdn.jsdelivr.net/npm/position-in-range@1.0.0/index.js"/>
 ```
 
-This module is now loaded in a variable that can be accessed in any scope.
 
-```javascript
-typeof positionInRange.default
+
+
+
+
+
+
+## Development
+
+
+
+Setting up:
+```bash
+git clone git@github.com:Jaid/position-in-range.git
+cd position-in-range
+npm install
 ```
-
-## Documentation
-**Kind**: Exported function  
-**Returns**: <code>number</code> - Relative position of given `position` within the range  
-
-| Param | Type |
-| --- | --- |
-| lowerRangeNumber | <code>number</code> | 
-| upperRangeNumber | <code>number</code> | 
-| position | <code>number</code> | 
-
-**Example**  
-```javascript
-import positionInRange from "position-in-range"
-positionInRange(2, 5,   2) //   0
-positionInRange(2, 5,   5) //   1
-positionInRange(2, 5, 3.5) // 0.5
-positionInRange(2, 5,   8) //   2
-positionInRange(2, 5,  -4) //  -2
+Testing:
+```bash
+npm run test:dev
+```
+Testing in production environment:
+```bash
+npm run test
 ```
 
 
@@ -56,7 +66,7 @@ positionInRange(2, 5,  -4) //  -2
 ```text
 MIT License
 
-Copyright © 2019, Jaid <jaid.jsx@gmail.com> (github.com/jaid)
+Copyright © 2020, Jaid <jaid.jsx@gmail.com> (github.com/jaid)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
