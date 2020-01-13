@@ -1,9 +1,9 @@
 # position-in-range
 
 
-<a href="https://raw.githubusercontent.com/Jaid/position-in-range/master/license.txt"><img src="https://img.shields.io/github/license/Jaid/position-in-range?style=flat-square" alt="License"/></a>  
-<a href="https://actions-badge.atrox.dev/Jaid/position-in-range/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2FJaid%2Fposition-in-range%2Fbadge" alt="Build status"/></a> <a href="https://github.com/Jaid/position-in-range/commits"><img src="https://img.shields.io/github/commits-since/Jaid/position-in-range/v1.0.0?style=flat-square&logo=github" alt="Commits since v1.0.0"/></a> <a href="https://github.com/Jaid/position-in-range/commits"><img src="https://img.shields.io/github/last-commit/Jaid/position-in-range?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/Jaid/position-in-range/issues"><img src="https://img.shields.io/github/issues/Jaid/position-in-range?style=flat-square&logo=github" alt="Issues"/></a>  
-<a href="https://npmjs.com/package/position-in-range"><img src="https://img.shields.io/npm/v/position-in-range?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/Jaid/position-in-range/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/position-in-range?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/position-in-range"><img src="https://img.shields.io/npm/dm/position-in-range?style=flat-square&logo=npm" alt="Downloads"/></a>
+<a href="https://raw.githubusercontent.com/jaid/position-in-range/master/license.txt"><img src="https://img.shields.io/github/license/jaid/position-in-range?style=flat-square" alt="License"/></a> <a href="https://github.com/sponsors/jaid"><img src="https://img.shields.io/badge/<3-Sponsor-FF45F1?style=flat-square" alt="Sponsor position-in-range"/></a>
+<a href="https://actions-badge.atrox.dev/jaid/position-in-range/goto"><img src="https://img.shields.io/endpoint.svg?style=flat-square&url=https%3A%2F%2Factions-badge.atrox.dev%2Fjaid%2Fposition-in-range%2Fbadge" alt="Build status"/></a> <a href="https://github.com/jaid/position-in-range/commits"><img src="https://img.shields.io/github/commits-since/jaid/position-in-range/v1.0.0?style=flat-square&logo=github" alt="Commits since v1.0.0"/></a> <a href="https://github.com/jaid/position-in-range/commits"><img src="https://img.shields.io/github/last-commit/jaid/position-in-range?style=flat-square&logo=github" alt="Last commit"/></a> <a href="https://github.com/jaid/position-in-range/issues"><img src="https://img.shields.io/github/issues/jaid/position-in-range?style=flat-square&logo=github" alt="Issues"/></a>  
+<a href="https://npmjs.com/package/position-in-range"><img src="https://img.shields.io/npm/v/position-in-range?style=flat-square&logo=npm&label=latest%20version" alt="Latest version on npm"/></a> <a href="https://github.com/jaid/position-in-range/network/dependents"><img src="https://img.shields.io/librariesio/dependents/npm/position-in-range?style=flat-square&logo=npm" alt="Dependents"/></a> <a href="https://npmjs.com/package/position-in-range"><img src="https://img.shields.io/npm/dm/position-in-range?style=flat-square&logo=npm" alt="Downloads"/></a>
 
 **Calculates the relative position of a number in the given range.**
 
@@ -41,14 +41,13 @@ yarn add position-in-range@^1.0.0
 
 
 
-
 ## Development
 
 
 
 Setting up:
 ```bash
-git clone git@github.com:Jaid/position-in-range.git
+git clone git@github.com:jaid/position-in-range.git
 cd position-in-range
 npm install
 ```
