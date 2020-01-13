@@ -30,5 +30,6 @@
     "prepareActionJest": "npm run build:prod"
   },
   "name": "position-in-range",
-  "description": "Calculates the relative position of a number in the given range."
+  "description": "Calculates the relative position of a number in the given range.",
+  "funding": "https://github.com/sponsors/jaid"
 }
