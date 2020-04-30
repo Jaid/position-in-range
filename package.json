@@ -35,5 +35,15 @@
     "url": "https://github.com/jaid/position-in-range"
   },
   "homepage": "https://github.com/Jaid/position-in-range",
-  "keywords": []
+  "keywords": [
+    "lib",
+    "library",
+    "math",
+    "math-library",
+    "numbers",
+    "position",
+    "range",
+    "util",
+    "utility"
+  ]
 }
