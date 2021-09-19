@@ -45,5 +45,6 @@
     "range",
     "util",
     "utility"
-  ]
+  ],
+  "type": "module"
 }
